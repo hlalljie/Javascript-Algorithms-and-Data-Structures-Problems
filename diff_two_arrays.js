@@ -3,6 +3,9 @@ Diff Two Arrays
 Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
 
 Note: You can return the array with its elements in any order.
+
+Does this in O(n) time.
+Has an unfortunate side affect not considering items that appear twice in one array and not in the other.
 */
 
 function diffArray(arr1, arr2) {
